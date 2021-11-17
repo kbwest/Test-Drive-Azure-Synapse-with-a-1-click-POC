@@ -1,0 +1,23 @@
+{
+	"name": "lakedb1",
+	"properties": {
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true,
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Retail\",\"Version\":\"0.1.0\"}}}"
+		},
+		"Name": "lakedb1",
+		"EntityType": "DATABASE",
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://dlskbwpocfs1@kbwtnnp5tszhcj4ipoc.dfs.core.windows.net/lakedb1",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "kbwtnnp5tszhcj4ipocws1-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
