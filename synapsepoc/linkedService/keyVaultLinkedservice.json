@@ -2,8 +2,9 @@
 	"name": "keyVaultLinkedservice",
 	"properties": {
 		"parameters": {
-			"keyVaultName": {
-				"type": "string"
+			"keyVakeyvaltkbultName": {
+				"type": "string",
+				"defaultValue": "Nemron01"
 			}
 		},
 		"annotations": [],
