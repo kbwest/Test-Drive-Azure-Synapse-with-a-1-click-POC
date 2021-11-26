@@ -1,0 +1,7 @@
+{
+	"name": "CognitiveServiceSynapseEndpoint",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/5d435842-65a3-40fe-ad9e-9bc8c4636d6d/resourceGroups/kbkiosk/providers/Microsoft.CognitiveServices/accounts/cognitiveapikb",
+		"groupId": "account"
+	}
+}
